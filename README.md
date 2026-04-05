@@ -7,37 +7,37 @@ This project is a backend system designed for a finance dashboard application. I
 The system demonstrates API design, data modeling, authentication, authorization, and backend logic implementation.
 
 **Features**
-🔐 Authentication & Authorization
+🔐 **Authentication & Authorization**
 User Registration & Login
 JWT-based Authentication
 Role-based Access Control (Admin, Analyst, Viewer)
 
-👥 User Roles
+👥 **User Roles**
 Admin → Full access (create, update, delete records & manage users)
 Analyst → View records and access dashboard insights
 Viewer → Read-only access
 
-💰 Financial Records Management
+💰 **Financial Records Management**
 Create financial records (income/expense)
 View records
 Update records
 Delete records
 Filter records by type and category
 
-📊 Dashboard & Analytics
+📊 **Dashboard & Analytics**
 Total Income
 Total Expense
 Net Balance
 Category-wise Summary
 Aggregated financial insights
 
-🛠️ Tech Stack
+🛠️** Tech Stack**
 Backend: Node.js, Express.js
 Database: MongoDB (Local)
 ODM: Mongoose
 Authentication: JSON Web Tokens (JWT)
-
-📂 Project Structure
+**
+📂 Project Structure**
 finance-backend/
 │
 ├── controllers/
@@ -50,7 +50,7 @@ finance-backend/
 ├── .env
 └── package.json
 
-⚙️ Setup Instructions
+⚙️** Setup Instructions**
 1️⃣ Clone Repository
 git clone https://github.com/your-username/finance-backend.git
 cd finance-backend
@@ -77,7 +77,6 @@ DELETE /api/records/:id
 📊 Dashboard
 GET /api/dashboard
 🧪 Testing
-
 Use Postman to test APIs:
 
 Register user
